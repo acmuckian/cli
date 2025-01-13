@@ -13,7 +13,7 @@ async function getStatus(e) {
     const data = await response.json();
 
     if (response.ok) {
-        displayData(data);
+        displayStatus(data);
     } else {
         throw new Error(data.error);
     }
