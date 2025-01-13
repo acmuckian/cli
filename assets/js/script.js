@@ -27,5 +27,5 @@ function displayStatus(data) {
     results += `<div class="key-status"><${data.expiry}/div>`;
     document.getElementById("resultsModalTitle").innerText = HTMLHeadingElement;
     document.getElementById("results-content").innerHTML = results;
-    resultModal.show();
+    resultsModal.show();
 }
